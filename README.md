@@ -25,7 +25,7 @@ Implement A* algorithm on a map between a given start and goal node. The reposit
 
 ### Heuristic 
 
-Using a good heuristic is important in optimizing the performance of A*. We use the Euclidean Distance Heuristic: 
+Using a good heuristic is important in optimizing the performance of A*. I calculate Euclidean Distance between the node and the goal: 
 
 <p align="center">
         <img src = "Images/heuristic.PNG" width = "400">
@@ -56,11 +56,11 @@ Map 1: (1,10) --> (10,1)   |  Map 2: (1,10) --> (10,1)
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-<!-- ## Acknowledgements
+## Acknowledgements
 
  - [101 Computing - A* Search Algorithm](https://www.101computing.net/a-star-search-algorithm/)
- - [Brilliant](https://brilliant.org/wiki/a-star-search/)
+ - [Brilliant - A* Search](https://brilliant.org/wiki/a-star-search/)
  - [Planning Algorithms, LaValle, Chapter 2](http://lavalle.pl/planning/ch2.pdf)
- -->
+ 
 ## Support
 For any questions, email me at jaisharm@umd.edu
