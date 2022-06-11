@@ -27,7 +27,7 @@ Implement A* algorithm on a map between a given start and goal node. The reposit
 
 The evaluation function $f(n)$ for A* algorithm is: $$ f(n) = g(n) + h(n) $$.
 
-Here, $g(n)$ is the operating cost function and $h(n)$ is the heurisitc function. Using a good heuristic is important in optimizing the performance of A*. I calculate the Euclidean Distance between the node and the goal:  
+Here, $g(n)$ is the operating cost function and $h(n)$ is the heurisitc function. In the queue, the node with the smallest $f(n)$ value is explored first. Using a good heuristic is important in optimizing the performance of A*. I calculate the Euclidean Distance between the node and the goal:  
 
 <p align="center">
         <img src = "Images/heuristic.PNG" width = "400">
